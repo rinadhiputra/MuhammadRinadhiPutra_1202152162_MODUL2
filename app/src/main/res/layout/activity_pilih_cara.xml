@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.muhammadrinadhiputra_1202152162_modul2.PilihCara">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/pilih_cara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Pilih Menu"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pilih_cara"
+        android:layout_alignRight="@+id/pilih_cara"
+        android:layout_below="@+id/pilih_cara">
+
+        <RadioButton
+            android:id="@+id/button_dinein"
+            android:onClick="pilihdinein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pilih_cara"
+            android:layout_alignStart="@+id/pilih_cara"
+            android:layout_below="@+id/pilih_cara"
+            android:layout_marginTop="24dp"
+            android:text="Dine In"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/button_takeaway"
+            android:onClick="pilihtakeaway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button_dinein"
+            android:layout_alignStart="@+id/button_dinein"
+            android:layout_below="@+id/button_dinein"
+            android:layout_marginTop="21dp"
+            android:text="Take Away"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_pilih"
+        android:onClick="pilihmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:text="Pilih Sekarang"
+        android:backgroundTint="hijau"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

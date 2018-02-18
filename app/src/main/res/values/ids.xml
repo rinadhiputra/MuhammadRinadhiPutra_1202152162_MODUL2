@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Spinner" type="id" />
+    <item name="detailFoto" type="id" />
+    <item name="jenisMenu" type="id" />
+    <item name="nominalHarga" type="id" />
+    <item name="komposisi" type="id" />
+    <item name="jenis" type="id" />
+    <item name="nominal" type="id" />
+    <item name="foto" type="id" />
+    <item name="recyclerView" type="id" />
+</resources>

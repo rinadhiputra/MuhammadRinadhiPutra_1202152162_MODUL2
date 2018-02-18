@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.muhammadrinadhiputra_1202152162_modul2.TakeAway">
+
+    <TextView
+        android:id="@+id/text_iden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="Identitas Pemesan : "
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/text_namatake"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_iden"
+        android:layout_alignStart="@+id/text_iden"
+        android:layout_below="@+id/text_iden"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="Nama"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_namatake"
+        android:layout_alignStart="@+id/text_namatake"
+        android:layout_below="@+id/text_namatake"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/text_alamat"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/phone"
+        android:layout_alignStart="@+id/phone"
+        android:layout_below="@+id/phone"
+        android:ems="10"
+        android:hint="Alamat"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/text_catatan"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/text_alamat"
+        android:layout_alignRight="@+id/text_alamat"
+        android:layout_below="@+id/text_alamat"
+        android:ems="10"
+        android:hint="Catatan"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button_pesantakeaway"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_catatan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:text="Pilih Pesanan"
+        android:backgroundTint="hijau"
+        android:onClick="pesantakeaway"
+        android:textSize="18sp" />
+</RelativeLayout>

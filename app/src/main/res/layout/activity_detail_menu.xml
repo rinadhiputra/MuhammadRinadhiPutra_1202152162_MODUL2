@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.android.muhammadrinadhiputra_1202152162_modul2.DetailMenu"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/jenisMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bimbimbap Rice"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/detailFoto"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:src="@drawable/BimbimbapRice"
+        />
+
+    <TextView
+        android:id="@+id/nominalHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. 40.000"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Komposisi :"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:id="@+id/komposisi"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bimbimbap Rice"
+        android:textSize="16dp"
+        />
+</LinearLayout>
